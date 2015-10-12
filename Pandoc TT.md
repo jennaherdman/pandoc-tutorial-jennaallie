@@ -35,7 +35,14 @@ For Mac users, you open pandoc in /Applications/Utilities, then clicking the app
 
 ##Basic controls 
 
-Type in *pwd* into your oandoc 
+Type in *pwd* into your pandoc window, then hit *enter.* This will reveal your current wod directory: for example, when I do this, it shows me: 
+
+/Users/joanne
+Jennas-Macbook-Pro: ~ joanne$
+
+*For some reason my computer is registered to my mom’s name. Anyway, irrelevant.*
+
+Next, you want to open your Documents sub-directory. This is the equivalent of opening the little folder that says Documents from your finder, expect on a deeper level. 
 
 
 #Conclusion
