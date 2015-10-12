@@ -47,14 +47,16 @@ Jennas-Macbook-Pro: ~ joanne$
 
 *For some reason my computer is registered to my mom’s name. Anyway, irrelevant.*
 
-ls -- This shows you what files and folders are contained in the folder you are currently in.
+Say you want to navigate between different directories, which are arranged in a sort of narrowing hierarchy. This is the equivalent of opening the little folder that says Documents from your finder, expect on a deeper level, as you can make changes to the documents stored there through Pandoc. 
 
 
-+- cd .. -- This will move you "up" one level. For example, if you are currently in /Users/'your-user-name'/documents then this command will move you into /Users/'your-user-name'
-+- cd [folder-name] -- This will move you "down" one level. If you want to return to the documents folder, enter 'cd documents'. 
+*ls* then *enter* -- This shows you what files and folders are contained in the folder you are currently in.
+
+*cd ..* -- This will move you "up" one level. For example, if you are currently in your Documents directory (/Users/'your-user-name'/documents) then this command will retreat and move you back into your overall directory  (/Users/'your-user-name)’
+
+*cd folder-name* -- This will move you "down" one level. If you want to return to the documents folder, enter *cd documents* or instead, *cd ..*. 
 
 
-Next, say you want to open your Documents sub-directory. This is the equivalent of opening the little folder that says Documents from your finder, expect on a deeper level, where you can make changes through Pandoc. 
 
 Type in **ls** then **enter** to see what files are contained in that directory. 
 
@@ -84,13 +86,13 @@ So that’s html. But if you want to turn it into a Word document, then it’s t
 
 pandoc testytest1.md -f markdown -t docx -s -o testytest3.docx 
 
-And [here they are](screenshot1.png), all sitting in the directory, all created with marked down code and transformed through pandoc. 
+And ![here they are](screenshot1.jpeg), all sitting in the directory, all created with marked down code and transformed through pandoc. 
 
 Or PDF (for which you need MacTeX installed, which you can [do here](http://tug.org/mactex/mactex-download.html “do here”)): 
 
 pandoc testytest1.md -f markdown -t pdf -s -o testytest4.pdf
 
-So now you’ve had the chance to familiarize with Pandoc and get some experience with the way it can manipulate your files. This is useful if you're switching between computers that have different applications for editing these files, and 
+So now you’ve had the chance to familiarize with Pandoc and get some experience with the way it can manipulate your files. This is useful if you're switching between computers that have different applications for editing these files, and in easily converting said files between formats but maintaining the internal formatting you desire. 
 
 ## Using Pandoc for Academic Writing
 A promising way to easily format your academic papers is by using YAML (Yet Another Markup Language). By inserting a YAML metadeta block (a chunk of YAML text that acts as a set of instructions for the text) you can format the document produced by Pandoc. 
