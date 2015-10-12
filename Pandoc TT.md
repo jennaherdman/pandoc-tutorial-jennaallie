@@ -23,7 +23,13 @@ how to install the tool or other prerequisites for using it
 - once the program is installed, it won't appear in your applications. It functions within the command-line of your computer. To access the command-line of a Mac, open Finder and go to Applications/Utilities/Terminal (or hit cmd+space and type in 'terminal').
 
 #Using the tool
-you can name this however you'd like
+Here are some basic commands for orienting yourself in the terminal. Type them into the terminal and then hit <Enter> :
+
+- pwd -- The terminal will tell you what folder you are in. It should start you off in /Users/'your-user-name'
+- ls -- This shows you what files and folders are contained in the folder you are currently in.
+- cd .. -- This will move you "up" one level. For example, if you are currently in /Users/'your-user-name'/documents then this command will move you into /Users/'your-user-name'
+- cd [folder-name] -- This will move you "down" one level. If you want to return to the documents folder, enter 'cd documents'. 
+
 #Useful Commands for Academic Paper Formatting
 
 
