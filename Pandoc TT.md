@@ -21,7 +21,7 @@ Note: We will be restricting this tutorial to Mac users, for now.
 
 #Installation
 how to install the tool or other prerequisites for using it
-- there are different versions for Mac, Windows and Linux downloadable here: <http://pandoc.org/installing.html>
+- there are different versions for Mac, Windows and Linux [downloadable here](http://pandoc.org/installing.html “downloadable here”)
 - if you want to convert files into PDFs, the LaTeX extension is also required. For Mac users, you can download a simple version of the program here: <https://tug.org/mactex/morepackages.html>
 
 ##Setup
