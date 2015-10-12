@@ -15,6 +15,7 @@ Note: We will be restricting this tutorial to Mac users, for now.
 
 - reformat files using command-line operations. For example, the .epub file that won’t open with any of your computer programs can be reformatted by pandoc into an .rtf file that can be opened by any text editing program.
 - use templates to format your academic writing. Instead of formatting for MLA, APA, etc. as you write your papers, you can write in simple markdown format, focusing on content. Input the finished document into Pandoc and the outputted document will be formatted into the required citation style. C’est magnifique! 
+- writing in markdown allows you to ‘future proof’ your works because a .md file is the simplest, most easy-to-open format for text. This is important in light of phenomena such as planned obsolescence wherein you suddenly find that Microsoft has changed the formatting requirements o Word and now all of your .docx files are unopenable. 
 - Using markdown format has many advantages - for example, [David Smith’s personal blog](http://www.davidsmith.name/2014/05/23/markdown-for-the-humanities/ “David Smith’s personal blog) says that markdown forces you to write more  instead of getting distracted by formatting and citations. 
 
 #Software & Setup
@@ -26,23 +27,32 @@ how to install the tool or other prerequisites for using it
 
 ##Setup
 
-After downloading, go through the regular procedures for installing a program. However, when you have finished, you might have difficulty finding the application for pandoc. This is because there is no graphic user interface in the way most applications we download are presented. More detailed information can be found [on the pandoc website](http://pandoc.org/getting-started.html “pandoc website”)
+After downloading, go through the regular procedures for installing a program. However, when you have finished, you might have difficulty finding the application for pandoc. This is because there is no graphic user interface in the way most applications we download are presented. It functions within the command-line of your computer. More detailed information can be found [on the pandoc website](http://pandoc.org/getting-started.html “pandoc website”)
 
-For Mac users, you open pandoc in /Applications/Utilities, then clicking the application called Terminal. A small, white window will open. Welcome to your new control hub! 
+For Mac users, you open pandoc in /Applications/Utilities, then clicking the application called Terminal (or hit cmd+space and type in “terminal”). A small, white window will open. Welcome to your new control hub! 
  
 
 #Using the tool
 
 ##Basic controls 
 
-Type in *pwd* into your pandoc window, then hit *enter.* This will reveal your current wod directory: for example, when I do this, it shows me: 
+Here are some basic commands for orienting yourself in the terminal. Type them into the terminal and then hit <Enter> :
+
+**pwd** + **enter** -- The terminal will tell you what folder you are in. It should start you off in /Users/'your-user-name'
+
+This will reveal your current directory: for example, when I do this, it shows me: 
 
 /Users/joanne
 Jennas-Macbook-Pro: ~ joanne$
 
 *For some reason my computer is registered to my mom’s name. Anyway, irrelevant.*
 
-Next, you want to open your Documents sub-directory. This is the equivalent of opening the little folder that says Documents from your finder, expect on a deeper level. 
+ls -- This shows you what files and folders are contained in the folder you are currently in.
++- cd .. -- This will move you "up" one level. For example, if you are currently in /Users/'your-user-name'/documents then this command will move you into /Users/'your-user-name'
++- cd [folder-name] -- This will move you "down" one level. If you want to return to the documents folder, enter 'cd documents'. 
+
+
+Next, say you want to open your Documents sub-directory. This is the equivalent of opening the little folder that says Documents from your finder, expect on a deeper level. 
 
 
 #Conclusion
