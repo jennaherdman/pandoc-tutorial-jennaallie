@@ -54,6 +54,44 @@ ls -- This shows you what files and folders are contained in the folder you are 
 
 Next, say you want to open your Documents sub-directory. This is the equivalent of opening the little folder that says Documents from your finder, expect on a deeper level. 
 
+Extra Pandoc stuff 
+
+
+
+Type in **ls** then **enter** to see what files are contained in that directory. 
+
+Now that we know these basic commends, let’s use them to alter a document! 
+
+###Creating a new directory (through pandoc!)
+
+First of all, let’s create a test sub-directory to play in. First, open the Documents subdirectory by typing in **cd Documents**. 
+
+Second, create the new directory! Let’s call it testing-pandoc, or anything you like so long as it remains consistent for the next little while. So in Pandoc, type in **mkdir testing-pandoc** . This will create your new folder or directory. 
+
+To open your shiny new directory, we use our normal way to going down a level: **cd testing-pandoc** will do the trick. To make sure, verify you’re in the right directory by putting in **pwd** .
+
+###Converting a file (through pandoc!)
+
+In order to play with converting files, let’s create a test file. Open up an application that will let you use plain text, such as Notepad or TextEdit. I’m using Textedit, and have gone through the Preference to ensure the application will show text in its most basic format. Open up our new directory, testing-pandoc, and create your new file there. Mine is called “testytest1.md”.
+
+Next, let’s make sure we’re in testing-pandoc (by using pwd, remember?). Type in *ls* to see all the files in the directory, and *make sure you’ve remembered to save testytest1.md there.*
+
+To convert my “testytest1.md” I use this command: 
+
+pandoc testytest1.md -f markdown -t html -s -o testytest2.html
+
+This is like saying: dear pandoc, please find this file and convert it *from* (-f) this format (markdown) *to* (-t) this format into a new file with this name (-o). Then you can test that it worked by typing in *ls*, and there should be testytest2.html waiting for you. Then open it by typing in: *open testytest2.html. 
+
+So that’s html. But if you want to turn it into a Word document, then it’s the same route, but with the final product having a docx extension. Let’s try: 
+
+pandoc testytest1.md -f markdown -t docx -s -o testytest3.docx 
+
+Or PDF (for which you need MacTeX installed, which you can [do here](http://tug.org/mactex/mactex-download.html “do here”): 
+
+pandoc testytest1.md -f markdown -t pdf -s -o testytest4.pdf
+
+So now you’ve had the chance to familiarize with Pandoc and get some experience with the way it can manipulate your files. 
+
 ## Using Pandoc for Academic Writing
 A promising way to easily format your academic papers is by using YAML (Yet Another Markup Language). By inserting a YAML metadeta block (a chunk of YAML text that acts as a set of instructions for the text) you can format the document produced by Pandoc. 
 
