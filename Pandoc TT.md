@@ -22,18 +22,20 @@ Note: We will be restricting this tutorial to Mac users, for now.
 #Installation
 how to install the tool or other prerequisites for using it
 - there are different versions for Mac, Windows and Linux [downloadable here](http://pandoc.org/installing.html “downloadable here”)
-- if you want to convert files into PDFs, the LaTeX extension is also required. For Mac users, you can download a simple version of the program here: <https://tug.org/mactex/morepackages.html>
+- if you want to convert files into PDFs, the LaTeX extension is also required. For Mac users, you can download a [simple version of the program](https://tug.org/mactex/morepackages.html “simple version of the program”)
 
 ##Setup
 
-After downloading, go through the regular procedures for installing a program. However, when you have finished, you might have difficulty finding the application for pandoc. This is because there is no graphic user interface in the way most applications we download are presented. More detailed information can be found here: <http://pandoc.org/getting-started.html>
+After downloading, go through the regular procedures for installing a program. However, when you have finished, you might have difficulty finding the application for pandoc. This is because there is no graphic user interface in the way most applications we download are presented. More detailed information can be found [on the pandoc website](http://pandoc.org/getting-started.html “pandoc website”)
 
 For Mac users, you open pandoc in /Applications/Utilities, then clicking the application called Terminal. A small, white window will open. Welcome to your new control hub! 
  
 
-
 #Using the tool
-you can name this however you'd like
+
+##Basic controls 
+
+Type in *pwd* into your oandoc 
 
 
 #Conclusion
