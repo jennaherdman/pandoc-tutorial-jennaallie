@@ -84,7 +84,9 @@ So that’s html. But if you want to turn it into a Word document, then it’s t
 
 pandoc testytest1.md -f markdown -t docx -s -o testytest3.docx 
 
-Or PDF (for which you need MacTeX installed, which you can [do here](http://tug.org/mactex/mactex-download.html “do here”): 
+And [here they are](screenshot1.png), all sitting in the directory, all created with marked down code and transformed through pandoc. 
+
+Or PDF (for which you need MacTeX installed, which you can [do here](http://tug.org/mactex/mactex-download.html “do here”)): 
 
 pandoc testytest1.md -f markdown -t pdf -s -o testytest4.pdf
 
