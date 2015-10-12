@@ -48,19 +48,17 @@ Jennas-Macbook-Pro: ~ joanne$
 *For some reason my computer is registered to my mom’s name. Anyway, irrelevant.*
 
 ls -- This shows you what files and folders are contained in the folder you are currently in.
+
+
 +- cd .. -- This will move you "up" one level. For example, if you are currently in /Users/'your-user-name'/documents then this command will move you into /Users/'your-user-name'
 +- cd [folder-name] -- This will move you "down" one level. If you want to return to the documents folder, enter 'cd documents'. 
 
 
-Next, say you want to open your Documents sub-directory. This is the equivalent of opening the little folder that says Documents from your finder, expect on a deeper level. 
-
-Extra Pandoc stuff 
-
-
+Next, say you want to open your Documents sub-directory. This is the equivalent of opening the little folder that says Documents from your finder, expect on a deeper level, where you can make changes through Pandoc. 
 
 Type in **ls** then **enter** to see what files are contained in that directory. 
 
-Now that we know these basic commends, let’s use them to alter a document! 
+Now that we know these basic commands, let’s use them to alter a document! 
 
 ###Creating a new directory (through pandoc!)
 
@@ -74,7 +72,7 @@ To open your shiny new directory, we use our normal way to going down a level: *
 
 In order to play with converting files, let’s create a test file. Open up an application that will let you use plain text, such as Notepad or TextEdit. I’m using Textedit, and have gone through the Preference to ensure the application will show text in its most basic format. Open up our new directory, testing-pandoc, and create your new file there. Mine is called “testytest1.md”.
 
-Next, let’s make sure we’re in testing-pandoc (by using pwd, remember?). Type in *ls* to see all the files in the directory, and *make sure you’ve remembered to save testytest1.md there.*
+Next, let’s make sure we’re in testing-pandoc (by using pwd, remember?). Type in *ls* to see all the files in the directory, and make sure you’ve remembered to save testytest1.md there.
 
 To convert my “testytest1.md” I use this command: 
 
@@ -90,7 +88,7 @@ Or PDF (for which you need MacTeX installed, which you can [do here](http://tug.
 
 pandoc testytest1.md -f markdown -t pdf -s -o testytest4.pdf
 
-So now you’ve had the chance to familiarize with Pandoc and get some experience with the way it can manipulate your files. 
+So now you’ve had the chance to familiarize with Pandoc and get some experience with the way it can manipulate your files. This is useful if you're switching between computers that have different applications for editing these files, and 
 
 ## Using Pandoc for Academic Writing
 A promising way to easily format your academic papers is by using YAML (Yet Another Markup Language). By inserting a YAML metadeta block (a chunk of YAML text that acts as a set of instructions for the text) you can format the document produced by Pandoc. 
