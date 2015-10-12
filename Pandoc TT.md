@@ -54,7 +54,31 @@ ls -- This shows you what files and folders are contained in the folder you are 
 
 Next, say you want to open your Documents sub-directory. This is the equivalent of opening the little folder that says Documents from your finder, expect on a deeper level. 
 
+## Using Pandoc for Academic Writing
+A promising way to easily format your academic papers is by using YAML (Yet Another Markup Language). By inserting a YAML metadeta block (a chunk of YAML text that acts as a set of instructions for the text) you can format the document produced by Pandoc. 
+
+Every block must begin and end with three hyphens (---) (it can also end with three periods (...)) to delineate which chunk of text is the YAML block. 
+
+Here is a [template](https://pbs.twimg.com/media/CRJhdh3WwAAhnBR.png) from a [website](http://kieranhealy.org/blog/archives/2014/01/23/plain-text/) that explains YAML blocks.
+
+It should look like [this](http://kieranhealy.org/files/misc/pandoc-template-html-output-sample.png) after it is converted from markdown through Pandoc.
+
+Here is [mine](https://pbs.twimg.com/media/CRJhdeZWgAAvPGS.png).
+
+It ends up looking like [this](https://pbs.twimg.com/media/CRJhddjW8AEAoaU.png).
+
+So the idea of YAML is great - that you can input simple formatting commands without using elaborate codes. However, the implementation remains ... unclear.
+
+A simpler, non-YAML metadata block you can use looks like this:
+
+% title
+
+% authour(s) 
+
+% date
+
+When I input [this](https://pbs.twimg.com/media/CRJlog3WwAAJInm.png) .md file into Pandoc and convert to .html, I get [this](https://pbs.twimg.com/media/CRJlog3XAAASCyL.png).
 
 #Conclusion
 what the reader now knows about the tool, suggestions on further directions to take the tool, readings (if available) where the tool was used to generate new insights, etc.
-
+- there is a wide variety of programs that can be used in conjunction with Pandoc because markdown is easily read and converted. For example, Zotero can help users manage and structure documents in larger projects.
