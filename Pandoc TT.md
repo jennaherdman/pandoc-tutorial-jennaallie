@@ -8,7 +8,7 @@ by Allie Watson and Jenna Herdman
 
 The word *pan* has an origin in ancient Greek: it means everything, inclusive, *all*.
 
-And Pandoc is a useful tool for managing and controlling your documents in a marked down format. By learning specific codes and sequences you can control your computer and preserve documents using only your keyboard. The documents you use with Pandoc will survive the constantly changing faces of fancy word processing programs and the plain text format will always be accessible and readable. You can use Pandoc syntax extensions to transform files into different formats and citation styles. 
+Pandoc is a useful tool for managing and controlling your documents in a marked down format. By learning specific codes and sequences you can control your computer and preserve documents using only your keyboard. The documents you use with Pandoc will survive the constantly changing faces of fancy word processing programs and the plain text format will always be accessible and readable. You can use Pandoc syntax extensions to transform files into different formats and citation styles. 
 
 Pandoc is like driving a car, but a car where the layers of the machine are peeled back to put every mechanism of the vehicle at your fingertips. 
 
@@ -23,12 +23,12 @@ In this tutorial, we (Allie and Jenna) will walk you through some of the basic f
 
 - reformat files using command-line operations. For example, the .epub file that won’t open with any of your computer programs can be reformatted by pandoc into an .rtf file that can be opened by any text editing program.
 - use templates to format your academic writing. Instead of formatting for MLA, APA, etc. as you write your papers, you can write in simple markdown format, focusing on content. Input the finished document into Pandoc and the outputted document will be formatted into the required citation style. C’est magnifique! 
-- writing in markdown allows you to ‘future proof’ your works because a .md file is the simplest, most easy-to-open format for text. This is important in light of phenomena such as planned obsolescence wherein you suddenly find that Microsoft has changed the formatting requirements o Word and now all of your .docx files are unopenable. 
+- writing in markdown allows you to ‘future proof’ your works because a .md file is the simplest, most easy-to-open format for text. This is important in light of phenomena such as planned obsolescence wherein you may suddenly find that Microsoft has changed the formatting requirements of Word and now all of your .docx files cannot be opened. 
 - Using markdown format has many advantages - for example, [David Smith’s personal blog](http://www.davidsmith.name/2014/05/23/markdown-for-the-humanities/ “David Smith’s personal blog) says that markdown forces you to write more  instead of getting distracted by formatting and citations. 
 
 #Software & Setup
 
-#Installation
+##Installation
 how to install the tool or other prerequisites for using it
 - there are different versions for Mac, Windows and Linux [downloadable here](http://pandoc.org/installing.html “downloadable here”)
 - if you want to convert files into PDFs, the LaTeX extension is also required. For Mac users, you can download a [simple version of the program](https://tug.org/mactex/morepackages.html “simple version of the program”)
@@ -37,7 +37,7 @@ how to install the tool or other prerequisites for using it
 
 After downloading, go through the regular procedures for installing a program. However, when you have finished, you might have difficulty finding the application for pandoc. This is because there is no graphic user interface in the way most applications we download are presented. It functions within the command-line of your computer. More detailed information can be found [on the pandoc website](http://pandoc.org/getting-started.html “pandoc website”)
 
-For Mac users, you open pandoc in /Applications/Utilities, then clicking the application called Terminal (or hit cmd+space and type in “terminal”). A small, white window will open. Welcome to your new control hub! 
+For Mac users, you open Pandoc in /Applications/Utilities, then clicking the application called Terminal (or hit cmd+space and type in “terminal”). A small, white window will open. Welcome to your new control hub! 
  
 
 #Using the tool
@@ -55,7 +55,7 @@ Jennas-Macbook-Pro: ~ joanne$
 
 *For some reason my computer is registered to my mom’s name. Anyway, irrelevant.*
 
-Say you want to navigate between different directories, which are arranged in a sort of narrowing hierarchy. This is the equivalent of opening the little folder that says Documents from your finder, expect on a deeper level, as you can make changes to the documents stored there through Pandoc. 
+Say you want to navigate between different directories, which are arranged in a sort of narrowing hierarchy. This is the equivalent of opening the little folder that says Documents from your finder, except on a deeper level, as you can make changes to the documents stored there through Pandoc. 
 
 **ls** then **enter** -- This shows you what files and folders are contained in the folder you are currently in.
 
