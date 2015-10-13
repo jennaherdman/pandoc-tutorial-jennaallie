@@ -57,7 +57,6 @@ Say you want to navigate between different directories, which are arranged in a 
 *cd folder-name* -- This will move you "down" one level. If you want to return to the documents folder, enter *cd documents* or instead, *cd ..*. 
 
 
-
 Type in **ls** then **enter** to see what files are contained in that directory. 
 
 Now that we know these basic commands, let’s use them to alter a document! 
@@ -86,7 +85,7 @@ So that’s html. But if you want to turn it into a Word document, then it’s t
 
 pandoc testytest1.md -f markdown -t docx -s -o testytest3.docx 
 
-And ![here they are](screenshot1.jpeg), all sitting in the directory, all created with marked down code and transformed through pandoc. 
+And [here they are](file:///Users/joanne/Documents/testing-pandoc/screenshot1.jpeg “here they are”), all sitting in the directory, all created with marked down code and transformed through pandoc. 
 
 Or PDF (for which you need MacTeX installed, which you can [do here](http://tug.org/mactex/mactex-download.html “do here”)): 
 
