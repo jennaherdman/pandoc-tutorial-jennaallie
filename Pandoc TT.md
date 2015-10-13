@@ -1,5 +1,6 @@
 ---
-Allie and Jenna’s Tool Tutorial for Pandoc
+#Pandoc: Putting You in Control 
+by Allie Watson and Jenna Herdman
 ---
 
 #Introduction#
@@ -8,7 +9,7 @@ Allie and Jenna’s Tool Tutorial for Pandoc
 
 A useful tool for managing and controlling your documents in a marked down format. By learning specific codes and sequences you can control your computer and preserve documents using only your keyboard. The documents you use with pandoc will survive the constantly changing faces of fancy word processing programs and the plain text format will always be accessible and readable. You can use pandoc syntax extensions to transform files into different formats and citation styles. Pandoc is like driving a car, but where you open up the hood and control each movement at the touch of your fingers, making your brain and your keyboard manipulate the codes which cause each movement to be performed seamlessly.
 
-Note: We will be restricting this tutorial to Mac users, for now.  
+Note: We will be restricting this tutorial to Mac users, for now. Windows uses different commands and is a tutorial for another time.  
 
 
 ##What do we find most useful about pandoc? 
@@ -49,12 +50,11 @@ Jennas-Macbook-Pro: ~ joanne$
 
 Say you want to navigate between different directories, which are arranged in a sort of narrowing hierarchy. This is the equivalent of opening the little folder that says Documents from your finder, expect on a deeper level, as you can make changes to the documents stored there through Pandoc. 
 
+**ls** then **enter** -- This shows you what files and folders are contained in the folder you are currently in.
 
-*ls* then *enter* -- This shows you what files and folders are contained in the folder you are currently in.
+**cd ..** -- This will move you "up" one level. For example, if you are currently in your Documents directory (/Users/'your-user-name'/documents) then this command will retreat and move you back into your overall directory  (/Users/'your-user-name)’
 
-*cd ..* -- This will move you "up" one level. For example, if you are currently in your Documents directory (/Users/'your-user-name'/documents) then this command will retreat and move you back into your overall directory  (/Users/'your-user-name)’
-
-*cd folder-name* -- This will move you "down" one level. If you want to return to the documents folder, enter *cd documents* or instead, *cd ..*. 
+**cd folder-name** -- This will move you "down" one level. If you want to return to the documents folder, enter **cd documents** or instead, **cd ..**. 
 
 
 Type in **ls** then **enter** to see what files are contained in that directory. 
@@ -77,19 +77,19 @@ Next, let’s make sure we’re in testing-pandoc (by using pwd, remember?). Typ
 
 To convert my “testytest1.md” I use this command: 
 
-pandoc testytest1.md -f markdown -t html -s -o testytest2.html
+**pandoc testytest1.md -f markdown -t html -s -o testytest2.html**
 
-This is like saying: dear pandoc, please find this file and convert it *from* (-f) this format (markdown) *to* (-t) this format into a new file with this name (-o). Then you can test that it worked by typing in *ls*, and there should be testytest2.html waiting for you. Then open it by typing in: *open testytest2.html. 
+This is like saying: dear pandoc, please find this file and convert it *from* (-f) this format (markdown) *to* (-t) this format into a new file with this name (-o). Then you can test that it worked by typing in *ls*, and there should be testytest2.html waiting for you. Then open it by typing in: **open testytest2.html.** 
 
 So that’s html. But if you want to turn it into a Word document, then it’s the same route, but with the final product having a docx extension. Let’s try: 
 
-pandoc testytest1.md -f markdown -t docx -s -o testytest3.docx 
+**pandoc testytest1.md -f markdown -t docx -s -o testytest3.docx** 
 
-And [here they are](file:///Users/joanne/Documents/testing-pandoc/screenshot1.jpeg “here they are”), all sitting in the directory, all created with marked down code and transformed through pandoc. 
+And there they should be, all sitting in the directory, all created with marked down code and transformed through Pandoc. 
 
 Or PDF (for which you need MacTeX installed, which you can [do here](http://tug.org/mactex/mactex-download.html “do here”)): 
 
-pandoc testytest1.md -f markdown -t pdf -s -o testytest4.pdf
+**pandoc testytest1.md -f markdown -t pdf -s -o testytest4.pdf**
 
 So now you’ve had the chance to familiarize with Pandoc and get some experience with the way it can manipulate your files. This is useful if you're switching between computers that have different applications for editing these files, and in easily converting said files between formats but maintaining the internal formatting you desire. 
 
@@ -121,3 +121,12 @@ When I input [this](https://pbs.twimg.com/media/CRJlog3WwAAJInm.png) .md file in
 #Conclusion
 what the reader now knows about the tool, suggestions on further directions to take the tool, readings (if available) where the tool was used to generate new insights, etc.
 - there is a wide variety of programs that can be used in conjunction with Pandoc because markdown is easily read and converted. For example, Zotero can help users manage and structure documents in larger projects.
+- Learning about Pandoc and familiarizing yourself enough to use it as a tool is **tough.** It involves understanding not only the Pandoc commands, but also writing text that is marked down. 
+-We suggest that after experimenting with the tool in the ways we’ve explained, you explore into how it can be used for bibliographies and citations. These would be very useful for English majors, especially when switching between citation styles. 
+
+Further resources 
+- [Schmidt: basics of Markdown](http://benschmidt.org/2014/09/05/markdown-historical-writing-and-killer-apps/ “basics of Markdown”)
+-  [Tenen and Wythoff: using Pandoc and Markdown for academic papers](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown “Tenen and Wythoff”)
+-  [Pandoc.org: A less condensed but more comprehensive guide to what we’ve shown you today](http://pandoc.org/getting-started.html)
+
+
