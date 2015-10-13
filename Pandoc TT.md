@@ -3,13 +3,14 @@
 by Allie Watson and Jenna Herdman
 ---
 
-#Introduction#
 
 ##What is pandoc? 
 
-A useful tool for managing and controlling your documents in a marked down format. By learning specific codes and sequences you can control your computer and preserve documents using only your keyboard. The documents you use with pandoc will survive the constantly changing faces of fancy word processing programs and the plain text format will always be accessible and readable. You can use pandoc syntax extensions to transform files into different formats and citation styles. Pandoc is like driving a car, but where you open up the hood and control each movement at the touch of your fingers, making your brain and your keyboard manipulate the codes which cause each movement to be performed seamlessly.
+A useful tool for managing and controlling your documents in a marked down format. By learning specific codes and sequences you can control your computer and preserve documents using only your keyboard. The documents you use with pandoc will survive the constantly changing faces of fancy word processing programs and the plain text format will always be accessible and readable. You can use pandoc syntax extensions to transform files into different formats and citation styles. 
 
-Note: We will be restricting this tutorial to Mac users, for now. Windows uses different commands and is a tutorial for another time.  
+Pandoc is like driving a car, but a car where the layers of the machine are peeled back to put every mechanism of the vehicle at your fingertips. 
+
+**Please Note**: We will be restricting this tutorial to Mac users, for now. Windows uses different commands and is a tutorial for another time.  
 
 
 ##What do we find most useful about pandoc? 
@@ -119,12 +120,12 @@ A simpler, non-YAML metadata block you can use looks like this:
 When I input [this](https://pbs.twimg.com/media/CRJlog3WwAAJInm.png) .md file into Pandoc and convert to .html, I get [this](https://pbs.twimg.com/media/CRJlog3XAAASCyL.png).
 
 #Conclusion
-what the reader now knows about the tool, suggestions on further directions to take the tool, readings (if available) where the tool was used to generate new insights, etc.
-- there is a wide variety of programs that can be used in conjunction with Pandoc because markdown is easily read and converted. For example, Zotero can help users manage and structure documents in larger projects.
-- Learning about Pandoc and familiarizing yourself enough to use it as a tool is **tough.** It involves understanding not only the Pandoc commands, but also writing text that is marked down. 
--We suggest that after experimenting with the tool in the ways we’ve explained, you explore into how it can be used for bibliographies and citations. These would be very useful for English majors, especially when switching between citation styles. 
 
-Further resources 
+- there are a wide variety of programs that can be used in conjunction with Pandoc because markdown is easily read and converted. For example, Zotero can help users manage and structure documents in larger projects.
+- Learning about Pandoc and familiarizing yourself enough to use it as a tool is **tough.** It involves understanding not only the Pandoc commands, but also writing text that is marked down. 
+- We suggest that after experimenting with the tool in the ways we’ve explained, you explore into how it can be used for bibliographies and citations. These would be very useful for English majors, especially when switching between citation styles. 
+
+###Further resources 
 - [Schmidt: basics of Markdown](http://benschmidt.org/2014/09/05/markdown-historical-writing-and-killer-apps/ “basics of Markdown”)
 -  [Tenen and Wythoff: using Pandoc and Markdown for academic papers](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown “Tenen and Wythoff”)
 -  [Pandoc.org: A less condensed but more comprehensive guide to what we’ve shown you today](http://pandoc.org/getting-started.html)
