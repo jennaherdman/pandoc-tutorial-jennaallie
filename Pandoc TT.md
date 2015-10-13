@@ -6,9 +6,15 @@ by Allie Watson and Jenna Herdman
 
 ##What is pandoc? 
 
-A useful tool for managing and controlling your documents in a marked down format. By learning specific codes and sequences you can control your computer and preserve documents using only your keyboard. The documents you use with pandoc will survive the constantly changing faces of fancy word processing programs and the plain text format will always be accessible and readable. You can use pandoc syntax extensions to transform files into different formats and citation styles. 
+The word *pan* has an origin in ancient Greek: it means everything, inclusive, *all*.
+
+And Pandoc is a useful tool for managing and controlling your documents in a marked down format. By learning specific codes and sequences you can control your computer and preserve documents using only your keyboard. The documents you use with Pandoc will survive the constantly changing faces of fancy word processing programs and the plain text format will always be accessible and readable. You can use Pandoc syntax extensions to transform files into different formats and citation styles. 
 
 Pandoc is like driving a car, but a car where the layers of the machine are peeled back to put every mechanism of the vehicle at your fingertips. 
+
+Pandoc opens up your options and expands your intimate knowledge of your computer and how to manage it. Pandoc, like its etymological origins, can embody *all*.
+
+In this tutorial, we (Allie and Jenna) will walk you through some of the basic functions and uses of Pandoc. We will explain how to install it on your computer, how it relies on marked down text applications, and how you can use it to convert documents, navigate your directories, and introduce you to the many ways Pandoc can be useful for academic writing. While our guide is just an introduction, we hope it will make you more comfortable with Pandoc and enthusiastic to begin exploring its many functions and uses.
 
 **Please Note**: We will be restricting this tutorial to Mac users, for now. Windows uses different commands and is a tutorial for another time.  
 
