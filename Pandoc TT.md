@@ -100,7 +100,7 @@ So that’s html. But if you want to turn it into a Word document, then it’s t
 **pandoc testytest1.md -f markdown -t docx -s -o testytest3.docx** 
 
 The result:
-!(https://github.com/SAllieW/DecemberUpgrade/blob/master/TestytestDocx.png?raw=true)!
+![docx](https://github.com/SAllieW/DecemberUpgrade/blob/master/TestytestDocx.png?raw=true)!
 
 And there they should be, your .md, .html, and .docx files all sitting in the directory, all created with marked down code and transformed through Pandoc. 
 
