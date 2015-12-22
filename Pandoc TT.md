@@ -130,7 +130,7 @@ The advantages of using Pandoc as part of your academic workflow are not only st
 
 This step of the tutorial requires a citation managing program. This can include commonly used programs such as Zotero, Endnote, or Mendeley. It simply has to be a program that can produce a BibTex file. 
 
-I have exported a citation from a sociology text to a .bib file. The file itself looks like this: [BourdieuBib](https://github.com/SAllieW/DecemberUpgrade/blob/master/BourdieuBib.png)
+I have exported a citation from a sociology text to a .bib file. The file itself looks like this: [BourdieuBib](https://github.com/SAllieW/DecemberUpgrade/blob/master/BourdieuBib.png?raw=true)
 
 Save this file into the same file folder as the testytest1.md file that we have been experimenting with. It's important that the BibTex file be in the same folder as the document that you want to put the citation into.
 
