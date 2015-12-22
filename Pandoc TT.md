@@ -1,12 +1,10 @@
 ---
-<<<<<<< HEAD
 title: Pandoc: Putting you in Control 
 authors:
 - Allie Watson
 - Jenna Herdman
 date: 2014-03-03
 reviewers: DIGH5000
-
 layout: default
 ---
 
@@ -23,31 +21,8 @@ Pandoc opens up your options and expands your intimate knowledge of your compute
 In this tutorial, we (Allie and Jenna) will walk you through some of the basic functions and uses of Pandoc. We will explain how to install it on your computer, how it relies on marked down text applications, and how you can use it to convert documents, navigate your directories, and introduce you to the many ways Pandoc can be useful for academic writing. While our guide is just an introduction, we hope it will make you more comfortable with Pandoc and enthusiastic to begin exploring its many functions and uses.
 
 **Please Note**: We will be restricting this tutorial to Mac users, for now. Windows uses different commands and is a tutorial for another time.  
-=======
-#Pandoc: Putting You in Control 
-by Allie Watson and Jenna Herdman
----
 
 
-##What is pandoc? 
-
-The word *pan* has an origin in ancient Greek: it means everything, inclusive, *all*.
-
-Pandoc is a useful tool for managing and controlling your documents in a marked down format. By learning specific codes and sequences you can control your computer and preserve documents using only your keyboard. The documents you use with Pandoc will survive the constantly changing faces of fancy word processing programs and the plain text format will always be accessible and readable. You can use Pandoc syntax extensions to transform files into different formats and citation styles. 
->>>>>>> jennaherdman/master
-
-Pandoc is like driving a car, but a car where the layers of the machine are peeled back to put every mechanism of the vehicle at your fingertips. 
-
-<<<<<<< HEAD
-=======
-Pandoc opens up your options and expands your intimate knowledge of your computer and how to manage it. Pandoc, like its etymological origins, can embody *all*.
-
-In this tutorial, we (Allie and Jenna) will walk you through some of the basic functions and uses of Pandoc. We will explain how to install it on your computer, how it relies on marked down text applications, and how you can use it to convert documents, navigate your directories, and introduce you to the many ways Pandoc can be useful for academic writing. While our guide is just an introduction, we hope it will make you more comfortable with Pandoc and enthusiastic to begin exploring its many functions and uses.
-
-**Please Note**: We will be restricting this tutorial to Mac users, for now. Windows uses different commands and is a tutorial for another time.  
-
-
->>>>>>> jennaherdman/master
 ##What do we find most useful about pandoc? 
 
 - reformat files using command-line operations. For example, the .epub file that won’t open with any of your computer programs can be reformatted by pandoc into an .rtf file that can be opened by any text editing program.
@@ -63,15 +38,10 @@ how to install the tool or other prerequisites for using it
 - if you want to convert files into PDFs, the LaTeX extension is also required. For Mac users, you can download a [simple version of the program](https://tug.org/mactex/morepackages.html “simple version of the program”)
 
 ##Setup
-<<<<<<< HEAD
 
 After downloading, go through the regular procedures for installing a program. However, when you have finished, you might have difficulty finding the application for pandoc. This is because there is no graphic user interface in the way most applications we download are presented. It functions within the command-line of your computer. More detailed information can be found [on the pandoc website](http://pandoc.org/getting-started.html “pandoc website”)
 
-=======
 
-After downloading, go through the regular procedures for installing a program. However, when you have finished, you might have difficulty finding the application for pandoc. This is because there is no graphic user interface in the way most applications we download are presented. It functions within the command-line of your computer. More detailed information can be found [on the pandoc website](http://pandoc.org/getting-started.html “pandoc website”)
-
->>>>>>> jennaherdman/master
 For Mac users, you open Pandoc in /Applications/Utilities, then clicking the application called Terminal (or hit cmd+space and type in “terminal”). A small, white window will open. Welcome to your new control hub! 
  
 
@@ -123,17 +93,13 @@ To convert my “testytest1.md” I use this command:
 
 This is like saying: dear pandoc, please find this file and convert it *from* (-f) this format (markdown) *to* (-t) this format into a new file with this name (-o). Then you can test that it worked by typing in *ls*, and there should be testytest2.html waiting for you. Then open it by typing in: **open testytest2.html.** 
 
-<<<<<<< HEAD
 Here's what you end up with:
 ![HTML](https://github.com/SAllieW/DecemberUpgrade/blob/master/TestytestHTML.png?raw=true) 
 
-=======
->>>>>>> jennaherdman/master
 So that’s html. But if you want to turn it into a Word document, then it’s the same route, but with the final product having a docx extension. Let’s try: 
 
 **pandoc testytest1.md -f markdown -t docx -s -o testytest3.docx** 
 
-<<<<<<< HEAD
 The result:
 ![docx](https://github.com/SAllieW/DecemberUpgrade/blob/master/TestytestDocx.png?raw=true)
 
@@ -142,18 +108,11 @@ And there they should be, your .md, .html, and .docx files all sitting in the di
 There is also the option to convert into PDF (for which you need MacTeX installed, which you can [do here](http://tug.org/mactex/mactex-download.html “do here”)). This requires a small addition to the command line; "-t latex" means basically, "Hey Pandoc, use this tool called latex for this conversion." So it will look like this: 
 
 **pandoc -t latex testytest1.md -f markdown -t pdf -s -o testytest4.pdf**
-=======
-And there they should be, all sitting in the directory, all created with marked down code and transformed through Pandoc. 
-
-Or PDF (for which you need MacTeX installed, which you can [do here](http://tug.org/mactex/mactex-download.html “do here”)): 
-
-**pandoc testytest1.md -f markdown -t pdf -s -o testytest4.pdf**
->>>>>>> jennaherdman/master
 
 So now you’ve had the chance to familiarize with Pandoc and get some experience with the way it can manipulate your files. This is useful if you're switching between computers that have different applications for editing these files, and in easily converting said files between formats but maintaining the internal formatting you desire. 
 
 ## Using Pandoc for Academic Writing
-<<<<<<< HEAD
+
 A promising way to easily format your academic papers is by using YAML (Yet Another Markup Language). By inserting a YAML metadeta block (a chunk of YAML text that acts as a set of instructions for the text) you can add a title and format the document produced by Pandoc. This will be important for the next section of the tutorial about citations. 
 
 Every block must begin and end with three hyphens (---) to delineate which chunk of text is the YAML block. 
@@ -199,18 +158,15 @@ If all goes well, you should end up with this:
 The last line of code on the command line (top left) is what turned the .md file (on the right) into the PDF you can see in the bottom left.
 
 Et voila! Once you have everything in place, with a simple line of code you can transform a document that simply references citations, to a fully functioning document with in-text citations and a works cited page that didn't require you to type any of the information yourself. Ah, technology is a wonderful thing.
-=======
 
 #Conclusion
 
 - there are a wide variety of programs that can be used in conjunction with Pandoc because markdown is easily read and converted. For example, Zotero can help users manage and structure documents in larger projects.
 - Learning about Pandoc and familiarizing yourself enough to use it as a tool is **tough.** It involves understanding not only the Pandoc commands, but also writing text that is marked down. 
 - We suggest that after experimenting with the tool in the ways we’ve explained, you explore how it can be used when switching between citation styles. 
-=======
 
 ###Further resources 
 - [Schmidt: basics of Markdown](http://benschmidt.org/2014/09/05/markdown-historical-writing-and-killer-apps/ “basics of Markdown”)
 -  [Tenen and Wythoff: using Pandoc and Markdown for academic papers](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown “Tenen and Wythoff”)
 -  [Pandoc.org: A less condensed but more comprehensive guide to what we’ve shown you today](http://pandoc.org/getting-started.html)
-<<<<<<< HEAD
-=======
+
