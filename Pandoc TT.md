@@ -93,13 +93,14 @@ To convert my “testytest1.md” I use this command:
 
 This is like saying: dear pandoc, please find this file and convert it *from* (-f) this format (markdown) *to* (-t) this format into a new file with this name (-o). Then you can test that it worked by typing in *ls*, and there should be testytest2.html waiting for you. Then open it by typing in: **open testytest2.html.** 
 
-Here's what you end up with: (https://github.com/SAllieW/DecemberUpgrade/blob/master/TestytestHTML.png)
+[Here's](https://github.com/SAllieW/DecemberUpgrade/blob/master/TestytestHTML.png?raw=true) what you end up with.
 
 So that’s html. But if you want to turn it into a Word document, then it’s the same route, but with the final product having a docx extension. Let’s try: 
 
 **pandoc testytest1.md -f markdown -t docx -s -o testytest3.docx** 
 
-The result: (https://github.com/SAllieW/DecemberUpgrade/blob/master/TestytestDocx.png)
+The result:
+!(https://github.com/SAllieW/DecemberUpgrade/blob/master/TestytestDocx.png?raw=true)!
 
 And there they should be, your .md, .html, and .docx files all sitting in the directory, all created with marked down code and transformed through Pandoc. 
 
@@ -116,11 +117,11 @@ Every block must begin and end with three hyphens (---) to delineate which chunk
 
 The most basic YAML block looks like this at the beginning of your document:
 
-[SimpleYAML](https://github.com/SAllieW/DecemberUpgrade/blob/master/YAMLsimple.png)
+[SimpleYAML](https://github.com/SAllieW/DecemberUpgrade/blob/master/YAMLsimple.png?raw=true)
 
 When you run it through Pandoc and turn it into, say, a PDF, the title should look like this:
 
-[YAMLPDF](https://github.com/SAllieW/DecemberUpgrade/blob/master/YAMLsimplePDF.png)
+[YAMLPDF](https://github.com/SAllieW/DecemberUpgrade/blob/master/YAMLsimplePDF.png?raw=true)
 
 For a great overview on using YAML blocks, see [Marissa's tutorial](https://github.com/digh5000/student-tutorials/blob/master/Marissa-pandoc%20tutorial.md)
 
@@ -134,13 +135,13 @@ I have exported a citation from a sociology text to a .bib file. The file itself
 
 Save this file into the same file folder as the testytest1.md file that we have been experimenting with. It's important that the BibTex file be in the same folder as the document that you want to put the citation into.
 
-Now, open up the testytest1.md file and lets insert a quotation and a citation. Something like this:  (https://github.com/SAllieW/DecemberUpgrade/blob/master/InTextCitation.png)
+Now, open up the testytest1.md file and lets insert a quotation and a citation. Something like this:  (https://github.com/SAllieW/DecemberUpgrade/blob/master/InTextCitation.png?raw=true)
 
 The important part of this citation is that what comes after "@" matches the name of the .bib file's title, or what comes after the "article{" in the BibTex reference. In this case, it is the "Bourdieu1983" article title that must be included in the document. This will let Pandoc know where to insert the citation details you want. 
 
 But how will Pandoc know where to get the bibliographic information from? We need to beef up our YAML block with a line that tells Pandoc what the title of the .bib file is and to look for it in the same folder as the souce (-s testytest) file.
 
-[bibliography line](https://github.com/SAllieW/DecemberUpgrade/blob/master/YAMLbib.png)
+So here is what your YAML block looks like with a [bibliography line](https://github.com/SAllieW/DecemberUpgrade/blob/master/YAMLbib.png?raw=true).
 
 It's also a good idea to add a title for the bibligraphy to appear under, so go ahead and add a "Works Cited" section to the bottom of the document.
 
@@ -151,7 +152,7 @@ pandoc -t latex -S -s testytest1.md --filter pandoc-citeproc -o testytest6.pdf
 This code basically tells Pandoc, "Hey, use latex, be smart about it, the source is testytest1.md, you need to deal with citation tags, and the output will be testytest6.pdf"
 
 If all goes well, you should end up with this:
-(https://github.com/SAllieW/DecemberUpgrade/blob/master/FinalResult.png)
+(https://github.com/SAllieW/DecemberUpgrade/blob/master/FinalResult.png?raw=true)
 The last line of code on the command line (top left) is what turned the .md file (on the right) into the PDF you can see in the bottom left.
 
 Et voila! Once you have everything in place, with a simple line of code you can transform a document that simply references citations, to a fully functioning document with in-text citations and a works cited page that didn't require you to type any of the information yourself. Ah, technology is a wonderful thing.
