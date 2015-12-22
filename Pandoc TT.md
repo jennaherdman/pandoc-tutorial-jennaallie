@@ -200,40 +200,13 @@ The last line of code on the command line (top left) is what turned the .md file
 
 Et voila! Once you have everything in place, with a simple line of code you can transform a document that simply references citations, to a fully functioning document with in-text citations and a works cited page that didn't require you to type any of the information yourself. Ah, technology is a wonderful thing.
 =======
-A promising way to easily format your academic papers is by using YAML (Yet Another Markup Language). By inserting a YAML metadeta block (a chunk of YAML text that acts as a set of instructions for the text) you can format the document produced by Pandoc. 
-
-Every block must begin and end with three hyphens (---) (it can also end with three periods (...)) to delineate which chunk of text is the YAML block. 
-
-Here is a [template](https://pbs.twimg.com/media/CRJhdh3WwAAhnBR.png) from a [website](http://kieranhealy.org/blog/archives/2014/01/23/plain-text/) that explains YAML blocks.
-
-It should look like [this](http://kieranhealy.org/files/misc/pandoc-template-html-output-sample.png) after it is converted from markdown through Pandoc.
-
-Here is [mine](https://pbs.twimg.com/media/CRJhdeZWgAAvPGS.png).
-
-It ends up looking like [this](https://pbs.twimg.com/media/CRJhddjW8AEAoaU.png).
-
-So the idea of YAML is great - that you can input simple formatting commands without using elaborate codes. However, the implementation remains ... unclear.
-
-A simpler, non-YAML metadata block you can use looks like this:
-
-% title
-
-% authour(s) 
-
-% date
-
-When I input [this](https://pbs.twimg.com/media/CRJlog3WwAAJInm.png) .md file into Pandoc and convert to .html, I get [this](https://pbs.twimg.com/media/CRJlog3XAAASCyL.png).
->>>>>>> jennaherdman/master
 
 #Conclusion
 
 - there are a wide variety of programs that can be used in conjunction with Pandoc because markdown is easily read and converted. For example, Zotero can help users manage and structure documents in larger projects.
 - Learning about Pandoc and familiarizing yourself enough to use it as a tool is **tough.** It involves understanding not only the Pandoc commands, but also writing text that is marked down. 
-<<<<<<< HEAD
 - We suggest that after experimenting with the tool in the ways we’ve explained, you explore how it can be used when switching between citation styles. 
 =======
-- We suggest that after experimenting with the tool in the ways we’ve explained, you explore into how it can be used for bibliographies and citations. These would be very useful for English majors, especially when switching between citation styles. 
->>>>>>> jennaherdman/master
 
 ###Further resources 
 - [Schmidt: basics of Markdown](http://benschmidt.org/2014/09/05/markdown-historical-writing-and-killer-apps/ “basics of Markdown”)
@@ -241,6 +214,3 @@ When I input [this](https://pbs.twimg.com/media/CRJlog3WwAAJInm.png) .md file in
 -  [Pandoc.org: A less condensed but more comprehensive guide to what we’ve shown you today](http://pandoc.org/getting-started.html)
 <<<<<<< HEAD
 =======
-
->>>>>>> jennaherdman/master
-
